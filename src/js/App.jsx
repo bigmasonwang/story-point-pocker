@@ -68,17 +68,20 @@ function App() {
           </div>
         )}
         {state === SHOW_SCORE_STATE && (
-          <div className="d-flex align-items-center justify-content-center">
-            <span style={{ fontSize: "10rem" }}>{value}</span>
+          <div
+            className="d-flex align-items-center justify-content-center border border-solid-3 rounded"
+            onClick={() => setState(CHANGE_SCORE_STATE)}
+          >
+            <span style={{ fontSize: "20rem" }}>{value}</span>
           </div>
         )}
       </div>
-      <div className="fixed-bottom d-flex justify-content-between container">
+      <div className="fixed-bottom d-flex justify-content-between container bg-body bg-opacity-75">
         <button
           className="btn btn-lg btn-secondary"
           onClick={() => setState(CHANGE_MODE_STATE)}
         >
-          Mode
+          Switch mode
         </button>
         <button
           className="btn btn-lg btn-primary"
