@@ -6,7 +6,7 @@ const MODES = [
     values: ["1", "3", "5", "8", "13", "17", "?"],
   },
   {
-    name: "T-shit sizing",
+    name: "T-shirt sizing",
     values: ["XS", "S", "M", "L", "XL"],
   },
 ];
