@@ -3,7 +3,7 @@ import { useState } from "react";
 const MODES = [
   {
     name: "Story points",
-    values: ["1", "3", "5", "8", "13", "17", "?"],
+    values: ["1", "2", "3", "5", "8", "13", "21", "?"],
   },
   {
     name: "T-shirt sizing",
